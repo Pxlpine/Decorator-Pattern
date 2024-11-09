@@ -1,7 +1,7 @@
 package decorators;
 
-public class UnderlineTextFormatter extends TextFormatterDecorator {
-    public UnderlineTextFormatter(TextFormatter formatter) {
+public class UnderlineDecorater extends TextFormatterDecorator {
+    public UnderlineDecorater(TextFormatter formatter) {
         super(formatter);
     }
 

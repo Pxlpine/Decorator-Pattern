@@ -1,7 +1,7 @@
 package decorators;
 
-public class BoldTextFormatter extends TextFormatterDecorator{
-    public BoldTextFormatter(TextFormatter formatter) {
+public class BoldDecorator extends TextFormatterDecorator{
+    public BoldDecorator(TextFormatter formatter) {
         super(formatter);
     }
 

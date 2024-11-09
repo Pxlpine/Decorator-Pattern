@@ -1,7 +1,7 @@
 package decorators;
 
-public class ItalicTextFormatter extends TextFormatterDecorator {
-    public ItalicTextFormatter(TextFormatter formatter) {
+public class ItalicDecorator extends TextFormatterDecorator {
+    public ItalicDecorator(TextFormatter formatter) {
         super(formatter);
     }
 
