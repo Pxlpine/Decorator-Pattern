@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="Seite-1" id="NsRlUBNrxBf7XNmzEjO-">
+    <mxGraphModel dx="1500" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WIe7WVRlitWbJ3u8N4tA-7" value="&lt;b&gt;FileDataSource&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="255" y="110" width="190" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-2" value="# name : String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="WIe7WVRlitWbJ3u8N4tA-7">
+          <mxGeometry y="30" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WIe7WVRlitWbJ3u8N4tA-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="WIe7WVRlitWbJ3u8N4tA-7" vertex="1">
+          <mxGeometry y="50" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WIe7WVRlitWbJ3u8N4tA-16" value="&lt;span style=&quot;text-align: center;&quot;&gt;+ FileDataSource (name: String)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="WIe7WVRlitWbJ3u8N4tA-7" vertex="1">
+          <mxGeometry y="58" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-3" value="+ readData () : String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="WIe7WVRlitWbJ3u8N4tA-7">
+          <mxGeometry y="78" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WIe7WVRlitWbJ3u8N4tA-14" value="+ wirteData (data : String)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="WIe7WVRlitWbJ3u8N4tA-7" vertex="1">
+          <mxGeometry y="98" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WIe7WVRlitWbJ3u8N4tA-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;endFill=0;" parent="1" source="WIe7WVRlitWbJ3u8N4tA-20" target="WIe7WVRlitWbJ3u8N4tA-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIe7WVRlitWbJ3u8N4tA-20" value="Client" style="fontStyle=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="aI5LZECJqxCxqyfIJ7YP-4" target="WIe7WVRlitWbJ3u8N4tA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-4" value="&lt;b&gt;EncryptedFileDataSource&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="15" y="300" width="240" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-4">
+          <mxGeometry y="30" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-7" value="&lt;span style=&quot;text-align: center;&quot;&gt;+ EncryptedFileDataSource (name: String)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-4">
+          <mxGeometry y="38" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-8" value="+ readData () : String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-4">
+          <mxGeometry y="58" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-9" value="+ wirteData (data : String)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-4">
+          <mxGeometry y="78" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-10" value="+ encrypt (data : String): String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-4">
+          <mxGeometry y="98" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-11" value="+ decrypt (data : String): String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-4">
+          <mxGeometry y="118" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=blockThin;endFill=0;" edge="1" parent="1" source="aI5LZECJqxCxqyfIJ7YP-12" target="WIe7WVRlitWbJ3u8N4tA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-12" value="&lt;b&gt;CompressedFileDataSource&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="445" y="300" width="260" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-26" value="+ compLevel: int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-12">
+          <mxGeometry y="30" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-12">
+          <mxGeometry y="50" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-14" value="&lt;span style=&quot;text-align: center;&quot;&gt;+ CompressedFileDataSource (name: String)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-12">
+          <mxGeometry y="58" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-15" value="+ readData () : String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-12">
+          <mxGeometry y="78" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-16" value="+ wirteData (data : String)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-12">
+          <mxGeometry y="98" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-17" value="+ compress (stringData : String): String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-12">
+          <mxGeometry y="118" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-18" value="+ decompress (stringData : String): String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-12">
+          <mxGeometry y="138" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="aI5LZECJqxCxqyfIJ7YP-27" target="WIe7WVRlitWbJ3u8N4tA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-27" value="&lt;b&gt;EncryptedCompressedFileDataSource&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="195" y="500" width="310" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-28" value="+ compLevel: int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-27">
+          <mxGeometry y="30" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-27">
+          <mxGeometry y="50" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-30" value="&lt;span style=&quot;text-align: center;&quot;&gt;+ EncryptedCompressedFileDataSource (name: String)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-27">
+          <mxGeometry y="58" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-31" value="+ readData () : String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-27">
+          <mxGeometry y="78" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-32" value="+ wirteData (data : String)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-27">
+          <mxGeometry y="98" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-35" value="+ encrypt (data : String): String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-27">
+          <mxGeometry y="118" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-37" value="+ decrypt (data : String): String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-27">
+          <mxGeometry y="138" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-33" value="+ compress (stringData : String): String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-27">
+          <mxGeometry y="158" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aI5LZECJqxCxqyfIJ7YP-34" value="+ decompress (stringData : String): String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="aI5LZECJqxCxqyfIJ7YP-27">
+          <mxGeometry y="178" width="310" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
