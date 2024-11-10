@@ -1,6 +1,6 @@
 package decorators;
 
-public class TextFormatterDecorator implements TextFormatter{
+public abstract class TextFormatterDecorator implements TextFormatter{
     protected TextFormatter formatter;
 
     public TextFormatterDecorator(TextFormatter formatter) {
